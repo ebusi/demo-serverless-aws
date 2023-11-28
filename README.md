@@ -57,5 +57,5 @@ sam build --use-container && sam deploy --profile personal --no-confirm-changese
 ### test
 ```bash
 cd java
-curl -w "@/Users/emanuelebusi/projects/demo-serverless-aws/curl-format.txt" <API_URL>
+curl -w "@../curl-format.txt" <API_URL>
 ```
